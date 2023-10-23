@@ -34,7 +34,7 @@ namespace API_Library.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("workstation id=greenlibrary.mssql.somee.com;packet size=4096;user id=hoangquynh_SQLLogin_2;pwd=123456789;data source=greenlibrary.mssql.somee.com;persist security info=False;initial catalog=greenlibrary");
+                optionsBuilder.UseSqlServer("workstation id=greenlibrary.mssql.somee.com;packet size=4096;user id=hoangquynh_SQLLogin_1;pwd=123456789;data source=greenlibrary.mssql.somee.com;persist security info=False;initial catalog=greenlibrary");
                 //optionsBuilder.UseSqlServer("Server=DESKTOP-RGS773K\\HOANGQUYNH;Database=library;Trusted_Connection=True;");
             }
         }
